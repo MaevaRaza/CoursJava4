@@ -8,6 +8,6 @@ public abstract class Hero extends Game{
     private String armor;
     private String weaponDamage;
     private List<Potion> potion;
-    private List<Food> lembas;
+    private List<Food> Lembas;
 
 }
