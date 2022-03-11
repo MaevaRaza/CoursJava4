@@ -1,4 +1,4 @@
-package rpg;
+package com.isep.rpg;
 
 import java.util.List;
 
