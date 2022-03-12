@@ -7,10 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class HeroTest {
 
     @Test
-    public void testhjgu(){
-        assertEquals();
-    }
-
     private void assertEquals() {
     }
+
 }

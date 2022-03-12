@@ -6,6 +6,11 @@ public class Game {
     private String heroes;
     private List<Hero> hero;
     private int playerTurn;
+    public void playGame(){
 
+    }
+    public void generateCombat(){
+
+    }
 
 }
