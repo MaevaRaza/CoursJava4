@@ -4,7 +4,6 @@ public class BasicEnemy extends Enemy{
     public BasicEnemy(String role) {
         super(role,50, 0, 5);
     }
-int maeva;
 
     @Override
     public String toString() {
