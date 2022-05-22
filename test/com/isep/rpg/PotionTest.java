@@ -1,4 +1,4 @@
-package com.isep.rpg;
+/*package com.isep.rpg;
 
 import org.junit.jupiter.api.Test;
 
@@ -10,3 +10,4 @@ public PotionTest {
     w.drink(p);
     assertEquals(80 , w.getlifePoints());
 }
+*/
