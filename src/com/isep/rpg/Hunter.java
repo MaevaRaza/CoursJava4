@@ -19,8 +19,8 @@ public class Hunter extends Hero {
     }
     @Override
     public String toString() {
-        return getRole() +" :HP " + getLifePoints() + " ,armure " + getArmor()
-                + " ,Arrow attack power " + getWeaponDamage()+" number of arrows "+ arrows
-                + " ,amount of food " + getLembas().size();
+        return getRole() +" : PV " + getLifePoints() + " ,armure " + getArmor()
+                + " ,dégâts des flèches  " + getWeaponDamage()+" ,flèche(s) restante(s) "+ arrows
+                + " ,quantité de nourriture " + getLembas().size();
     }
 }

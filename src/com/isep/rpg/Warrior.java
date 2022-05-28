@@ -8,8 +8,8 @@ public class Warrior extends Hero {
     }
 
     public String toString() {
-        return getRole() + " :HP " + getLifePoints() + " ,armure " + getArmor()
-                + " ,Axe attack power " + getWeaponDamage()
-                + " ,amount of food " + getLembas().size();
+        return getRole() + " : PV " + getLifePoints() + " ,armure " + getArmor()
+                + " ,dégâts de l'arme " + getWeaponDamage()
+                + " ,quantité de lembas " + getLembas().size();
     }
 }

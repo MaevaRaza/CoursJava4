@@ -21,9 +21,9 @@ public class Healer extends SpellCaster{
         return false;
     }
     public String toString() {
-        return  getRole() +" :HP " + getLifePoints() + " ,armure " + getArmor()+ " ,magic " + getManaPoints()
+        return  getRole() +" : PV " + getLifePoints() + " ,armure " + getArmor()+ " ,magic " + getManaPoints()
                 + " ,arme " + getWeaponDamage()
-                + " ,amount of food " + getLembas().size()
-                + " ,amount of potion " + getPotion().size();
+                + " ,quantité de lembas " + getLembas().size()
+                + " ,quantité de potion " + getPotion().size();
     }
 }

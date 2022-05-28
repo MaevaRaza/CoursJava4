@@ -9,9 +9,9 @@ public class Mage extends SpellCaster{
         getLembas().add(new Food());
     }
     public String toString() {
-        return getRole() +" :HP " + getLifePoints() + " ,armure " + getArmor() + " ,magic " + getManaPoints()
-                + " ,magic attack " + getWeaponDamage()
-                + " ,amount of food " + getLembas().size()
-                + " ,amount of potion " + getPotion().size();
+        return getRole() +" : PV " + getLifePoints() + " ,armure " + getArmor() + " ,magie " + getManaPoints()
+                + " ,efficacité du sort " + getWeaponDamage()
+                + " ,dégâts de l'arme " + getWeaponDamage()
+                + " ,quantité de lembas " + getLembas().size();
     }
 }

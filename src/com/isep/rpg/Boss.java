@@ -7,6 +7,6 @@ public class Boss extends Enemy{
 
     @Override
     public String toString() {
-        return  getRole() + ":HP " + getLifePoints() + ",armure " + getArmor() + ", arme " + getWeaponDamage();
+        return  getRole() + ": PV " + getLifePoints() + ",armure " + getArmor() + ", arme " + getWeaponDamage();
     }
 }
