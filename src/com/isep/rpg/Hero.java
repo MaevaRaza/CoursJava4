@@ -6,7 +6,7 @@ import java.util.List;
 public abstract class Hero{
     private String role;
     private int lifePoints;
-    private int maxLife;
+    private int maxLifePoints;
     private int armor;
     private int weaponDamage;
     private int defend;
@@ -19,6 +19,10 @@ public abstract class Hero{
         lembas = new ArrayList<>();
     }
 
+    public Hero(String role) {
+        this.role = role;
+    }
+
     public Hero(String role,int lifePoints, int armor, int weaponDamage) {
         this.role = role;
         this.lifePoints = lifePoints;
@@ -28,7 +32,7 @@ public abstract class Hero{
         lembas = new ArrayList<>();
     }
 
-    public void eatfood(Food food) {
+    public void manger(Food food) {
         int newlife = (lifePoints + food.getEfficiency() );
     }
 
@@ -42,7 +46,7 @@ public abstract class Hero{
     }
 
    /*se défendre avec une arme remporte 10 points*/
-    public void defend() {
+    public void defense() {
         defend = 10;
     }
 
@@ -108,4 +112,3 @@ public abstract class Hero{
 //private int lifePoints;
 //private int maxLifePoints;
 
-// void

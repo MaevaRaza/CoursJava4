@@ -8,22 +8,13 @@ import java.util.List;
 public class Game {
     private List<Hero> heroes;
     private List<Enemy> enemies;
-    private int playerTurn = 1;
+    private int playerTurn;
     private InputParser inputParser;
-    private List<Hero> heroTurn;
-    private List<Enemy> enemyTurn;
 
-    public Game() {
-        heroes = new ArrayList<>();
-        enemies = new ArrayList<>();
-        inputParser = new InputParser(this);
-        enemyTurn = new ArrayList<>();
-        heroTurn = new ArrayList<>();
-    }
+
+
     public void playGame(){
         playerTurn = 1;
-        heroTurn.clear();
-        enemyTurn.clear();
     }
 
     /* genere un ennemi correspondant au héro*/
@@ -62,11 +53,5 @@ public class Game {
         this.inputParser = inputParser;
     }
 
-    public List<Enemy> getEnemyTurn() {
-        return enemyTurn;
-    }
-    public List<Hero> getHeroTurn() {
-        return heroTurn;
-    }
 
 }

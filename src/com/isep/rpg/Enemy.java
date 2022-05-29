@@ -6,8 +6,8 @@ public abstract class Enemy {
     private int armor;
     private int weaponDamage;
 
-    public Enemy() {
-    }
+  //  public Enemy() {
+  // }
 
     public Enemy(String role,int lifePoints, int armor, int weaponDamage) {
         this.role = role;
